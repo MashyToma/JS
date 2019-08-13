@@ -1,10 +1,13 @@
 'use strict'
 var writeInThisWindow = prompt('Write in this window, please', '');
 
-if(writeInThisWindow =='null'){
-
+  if (writeInThisWindow == '') {
+      
 alert("It's not good...")
-}else{  
-    alert("It's ok!")
+}else if (writeInThisWindow == null){
+alert("It's ok!") 
     
+}else{
+alert("Thank you.")    
 }
+
